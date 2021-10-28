@@ -8,11 +8,27 @@ html, body { margin: 0; }
 
 :root {
     --color-primary: #0d6efd;
+    --color-primary-clear: #5597fa;
+    --color-primary-darked: #0b4eb3;
     --color-secondary: #afafaf;
+    --color-secondary-clear: #dfdfdf;
+    --color-secondary-darked: #646464;
     --color-success: #007932;
+    --color-success-clear: #208a4c;
+    --color-success-darked: #013818;
     --color-info: #9bc3ff;
+    --color-info-clear: #bad4fa;
+    --color-info-darked: #60789c;
     --color-warning: #fdf90d;
+    --color-warning-clear: #fffd8e;
+    --color-warning-darked: #adab08;
     --color-danger: #ff2a2a;
-    --color-light: #ffffff;
-    --color-dark: #0a0a0a;
+    --color-danger-clear: #ff6a6a;
+    --color-danger-darked: #b92222;
+    --color-light: #d6d4d4;
+    --color-light-clear: #f0eeee;
+    --color-light-darked: #a5a4a4;
+    --color-dark: #2c2828;
+    --color-dark-darked: #030303;
+    --border-color: #dee2e6;
 }
