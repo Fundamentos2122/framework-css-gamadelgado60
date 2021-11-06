@@ -157,6 +157,7 @@
     overflow-y: hidden;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    display: none;
 }
 
 .modal::-webkit-scrollbar
@@ -206,25 +207,39 @@
 .navbar
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     background-color: var(--color-light);
+    padding: 1em;
 }
 
 .navbar-brand 
 {
     display: inline-block;
-    padding: 1em;
     text-decoration: none;
     color: var(--color-dark);
     font-weight: 600;
     font-size: 1.25em;
 }
 
+.navbar-toggle
+{
+    padding: 0.5em;
+    height: fit-content;
+}
+
+.navbar-collapse
+{
+    display: none;
+    flex-basis: 100%;
+}
+
 .navbar-nav
 {
-    display: flex;
+    display: block;
     margin: 0;
-    padding: 1em;
+    padding: 0;
 }
 
 .navbar-nav  .nav-item 
@@ -252,13 +267,13 @@
 
 .dropdown-menu
 {
-    position: absolute;
     z-index: 1000;
     background-color: white;
     border: 1px solid var(--border-color);
-    color: var(--color-dark);
     list-style: none;
-    margin: 0;   
+    margin: 0;
+    padding: 0;
+    display: none;  
 }
 
 .dropdown-menu .dropdown-item
@@ -277,5 +292,28 @@
 .show
 {
     display: block;
-    display: block;
+}
+
+@media (min-width: 760px)
+{
+    .navbar-toggle
+    {
+        display: none;
+    } 
+
+    .navbar-collapse
+    {
+        display: block;
+        flex-basis: auto;
+    }
+
+    .navbar-nav
+    {
+        display: flex;
+    }
+
+    .dropdown-menu
+    {
+        position: absolute;
+    }
 }
