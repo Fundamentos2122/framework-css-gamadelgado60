@@ -1,0 +1,134 @@
+.lista-prod
+{
+    border: 2px solid var(--color-borderb);
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    padding: 0;
+}
+.lista-prod > .prod
+{
+    border-top: 2px solid var(--color-borderb);
+    border-bottom: 2px solid var(--color-borderb);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.cont-prod
+{
+    border: 2px solid var(--color-borderb);
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    padding: 2em;
+}
+.bord-prod-t
+{
+    border-top: 2px solid var(--color-borderb);
+}
+.bord-prod-b
+{
+    border-bottom: 2px solid var(--color-borderb);
+}
+.pimg
+{
+    border: 2px solid var(--color-borderb);
+    border-radius: 3%;
+    width: 7em;
+}
+.prod p
+{
+    padding: 0;
+}
+.prod a
+{
+    text-decoration: none;
+}
+.Tprod
+{
+    font-size: 1em;
+    font-weight: 600;
+    text-align: left;
+    padding:0;
+}
+.Pprod
+{
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: left;
+    padding: 0;
+}
+.btns-prod
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns-prod > .but
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0.5em;
+}
+.contenP
+{
+}
+.carrusProd
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TitulProd
+{
+    display: flex;
+    align-items:flex-start;
+        justify-content: start;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.resena
+{
+    padding: 0.5em;
+}
+
+textarea{
+    height: 100px;
+    width: 100%;
+    resize: none;
+}
+@media (min-width: 760px)
+{
+    .btns-prod > .but
+    {
+        margin: 0;
+    }
+    .pimg
+    {
+        width: 14em;
+    }
+    .Tprod
+    {
+        font-size: 1.5em;
+        padding-bottom: 1em;
+    }
+    .Pprod
+    {
+        font-size: 2em;
+        padding-top: 1em;
+    }
+    .lista-prod
+    {
+        padding: 0.5em;
+    }
+    .lista-prod > .prod
+    {
+        padding: 0.5em;
+    }
+    .TitulProd
+    {
+        
+        font-size: 1.7em;
+    }
+}

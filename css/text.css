@@ -52,6 +52,8 @@ h6, .h6{
 }
 p{ margin-top: 0;}
 
+
+
 .text-primary{
     color: var(--color-primary);
 }
@@ -99,4 +101,4 @@ p{ margin-top: 0;}
 }
 .bg-dark{
     background-color: var(--color-dark);
-}
+}   
